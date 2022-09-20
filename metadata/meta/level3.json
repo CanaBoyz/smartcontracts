@@ -1,0 +1,13 @@
+{
+    "name": "CB Silver MintPass",
+    "description": "Canaboyz Silver MintPass",
+    "image": "ipfs://QmRPTSBH4QhujrEiUnFiCJU47wfXetnhLeX5S63AeqaC2j",
+    "external_url": "https://canaboyz.io/",
+    "attributes": [
+        {
+            "key": "character",
+            "trait_type": "Character",
+            "value": "Fighter"
+        }
+    ]
+}

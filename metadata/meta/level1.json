@@ -1,0 +1,13 @@
+{
+    "name": "CB Common MintPass",
+    "description": "Canaboyz Common MintPass",
+    "image": "ipfs://QmTNPYVqbKjnayxjFL8gMfzqALbmjsVPUkndkoK8tPy7ow",
+    "external_url": "https://canaboyz.io/",
+    "attributes": [
+        {
+            "key": "character",
+            "trait_type": "Character",
+            "value": "Grover"
+        }
+    ]
+}

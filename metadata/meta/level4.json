@@ -1,0 +1,13 @@
+{
+    "name": "CB Gold MintPass",
+    "description": "Canaboyz Gold MintPass",
+    "image": "ipfs://QmXtdhMWbTaoTyAxJFSKpm5A3Yr8cpphiva2PCR8pjw5mm",
+    "external_url": "https://canaboyz.io/",
+    "attributes": [
+        {
+            "key": "character",
+            "trait_type": "Character",
+            "value": "Boss"
+        }
+    ]
+}

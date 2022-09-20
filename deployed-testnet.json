@@ -1,0 +1,225 @@
+{
+    "coinParams": {
+        "name": "TEST3 COIN",
+        "symbol": "T3COIN",
+        "initialSupply": "10000000",
+        "initialHolder": "0x401FD888B5E41113B7c0C47725A742bbc3A083EF",
+        "feeFromForced": 1000,
+        "feeToForced": 1000,
+        "feeDefault": 0,
+        "tokenManagers": ["0x0971c81bf0E09A92ba7e76EC4290da3982F1B4cf", "0x39835d6a9a15249b8c8B5b2eea9e3745eb5e2Da5"],
+        "hooks": [
+            {
+                "artifact": "HookBlackWhiteList"
+            }
+        ]
+    },
+    "mintPassCardParams": {
+        "name": "CB MintPass",
+        "symbol": "CBMP",
+        "baseURI": "ipfs://",
+        "maxOwnsCount": 0,
+        "maxUsesCount": 1,
+        "levels": [1, 2, 3, 4],
+        "levelURIs": [
+            "QmbuzMrBWJFfeVoJtxktVc3vLEeFqHig2G3k6CfCqLMchw",
+            "QmVE5zyJowru8CsZ4NjFxWPXfJr1KkmpCJcFePpFYvQBRi",
+            "QmedCTRxZ1LyriYtokPvh1conAEEbhE4iam13fcTR6BG9H",
+            "QmZyL9bX7iGajRPyiYwQFtuB3miZRjGWZYeDVqsAHBAnpH"
+        ],
+        "minters": ["0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354", "0xce97072E939EcA7647996281a10Bfa62018F2B67"],
+        "operators": [],
+        "enableClaim": true
+    },
+    "priceFeedAddressNote": "testnet DAI/BNB due to absence of BUSD/BNB",
+    "priceFeedAddress": "0x0630521aC362bc7A19a4eE44b57cE72Ea34AD01c",
+    "routerAddressNote": "https://pancake.kiemtienonline360.com/",
+    "routerAddress": "0x9ac64cc6e4415144c455bd8e4837fea55603e5c3",
+    "busdAddress": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7",
+    "walletAddressNote": "мой test4",
+    "walletAddress": "0x711821b020c0b5a26a9a82e8bb6b0A00DB5d22B4",
+    "mintPassCardSaleParams": {
+        "levels": [1, 2, 3, 4],
+        "levelAmounts": [6499, 3000, 480, 20]
+    },
+    "mintPassCardSaleRoundParams2": {
+        "start": 0,
+        "duration": 0,
+        "price": 1.6,
+        "amount": 50,
+        "roundId": 2
+    },
+    "mintPassCardAddress": "0xD08455451D139D4FF83f77F2051456eae635372B",
+    "cardSellerAddress": "0x14E72cb571d8c072C7caA056FB582f6c15a9B10c",
+    "coinAddress": "0x735420C6eB84bC00cCbedbd9bbb4A40eEE088A01",
+    "coinDistributeVested1": [
+        {
+            "list": [["0x401FD888B5E41113B7c0C47725A742bbc3A083EF", 100000]],
+            "start": 1649721600,
+            "cliff": 1649940660,
+            "end": 1652759200,
+            "complete": 1,
+            "revoked": 1
+        }
+    ],
+    "distributeMulti1": [
+        {
+            "list": [
+                ["0x401FD888B5E41113B7c0C47725A742bbc3A083EF", 10],
+                ["0x711821b020c0b5a26a9a82e8bb6b0A00DB5d22B4", 4]
+            ],
+            "level": 1,
+            "complete": 1
+        },
+        {
+            "list": [["0x401FD888B5E41113B7c0C47725A742bbc3A083EF", 5]],
+            "level": 2,
+            "complete": 1
+        },
+        {
+            "list": [["0x401FD888B5E41113B7c0C47725A742bbc3A083EF", 3]],
+            "level": 3,
+            "complete": 1
+        },
+        {
+            "list": [["0x401FD888B5E41113B7c0C47725A742bbc3A083EF", 150]],
+            "level": 4
+        }
+    ],
+    "itemParams": {
+        "name": "Test item",
+        "symbol": "TSTI",
+        "baseTokenURI": "",
+        "minters": ["0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354"],
+        "kindProps": {
+            "1": [1, 0, 0, 0, false, false, 1, 0],
+            "2": [2, 0, 0, 0, false, false, 0.2, 0],
+            "3": [3, 10, 20, 0, false, true, 5, 0],
+            "4": [3, 20, 30, 0, false, true, 7, 0],
+            "5": [3, 0, 30, 0, false, false, 2, 0],
+            "6": [4, 10, 10, 12960000, true, true, 10, 0],
+            "7": [4, 10, 10, 12960000, true, true, 15, 7.5]
+        },
+        "kindURIs": {
+            "1": "artifact_url_seed",
+            "2": "artifact_url_pot",
+            "3": "artifact_url_lamp",
+            "4": "artifact_url_box",
+            "5": "artifact_url_fert",
+            "6": "artifact_url_auto",
+            "7": "artifact_url_heat"
+        }
+    },
+    "shopParams": {
+        "name": "Test shop",
+        "symbol": "TSTS",
+        "baseTokenURI": "",
+        "minters": ["0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354", "0xce97072E939EcA7647996281a10Bfa62018F2B67"]
+    },
+    "marketParams": {
+        "itemPrices": {
+            "1": [1, 0],
+            "2": [0.2, 0],
+            "3": [5, 0],
+            "4": [7, 0],
+            "5": [2, 0],
+            "6": [10, 0],
+            "7": [15, 7.5]
+        },
+        "minters": ["0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354", "0xce97072E939EcA7647996281a10Bfa62018F2B67", "0xF5DA9D761b0Bc9ad80419Ed3798cC800ec259985"]
+    },
+    "plantParams": {
+        "name": "Test plant",
+        "symbol": "TSTP",
+        "baseTokenURI": ""
+    },
+    "nftParams": {
+        "name": "Test nft",
+        "symbol": "TSTNFT",
+        "baseTokenURI": "https://canaboyz.mypinata.cloud/ipfs/QmPgAaPybNt9ftjRHmURdXBL7RTAee8McT4et2VDidNFLE/",
+        "tokenURIPre": "",
+        "tokenURIPost": ".json",
+        "minters": ["0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354", "0xce97072E939EcA7647996281a10Bfa62018F2B67"],
+        "maxSupply": 4420
+    },
+    "nftAddress": "0x8bE29F50AB2581F3Bc5B48EaA8696B656e34c937",
+    "innerCoinParams": {
+        "name": "TEST3 GAME COIN",
+        "symbol": "T3GMCOIN",
+        "feeFromForced": 1000,
+        "feeToForced": 1000,
+        "feeDefault": 0,
+        "tokenManagers": ["0x0971c81bf0E09A92ba7e76EC4290da3982F1B4cf", "0x39835d6a9a15249b8c8B5b2eea9e3745eb5e2Da5"]
+    },
+    "innerCoinAddress": "0x47cf12E6682b0f1EF84d3CA7399930Ab7bB6fFC5",
+    "itemAddress": "0x06b8E729bD6D0ff58718fB70d51EA5A466D21349",
+    "shopAddress": "0x517e180e58b843490087Ca3FFECAC229d2d764d4",
+    "plantAddress": "0xf3B394A4B0BdCa0cc9ECEaF0e2713065BB858f9D",
+    "marketAddress": "0xAb1FdF7aF62f9bFb9D824135C8d2EA06C104f514",
+    "labAddress": "0xF79922269BE5571C3D6B2F49101D54602E61e025",
+    "labParams": {
+        "interval": 120
+    },
+    "sellerParams": {
+        "sellers": [
+            "0xce97072E939EcA7647996281a10Bfa62018F2B67",
+            "0xfC85F8020a3b9c7De322964F2c57a4cB67Ce6f5c",
+            "0x9020185b2cb622311B2e5ebc1a87F0a2Fe27430A",
+            "0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354"
+        ],
+        "wlOperators": [
+            "0xce97072E939EcA7647996281a10Bfa62018F2B67",
+            "0xfC85F8020a3b9c7De322964F2c57a4cB67Ce6f5c",
+            "0x9020185b2cb622311B2e5ebc1a87F0a2Fe27430A",
+            "0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354"
+        ],
+        "whiteList": ["0xce97072E939EcA7647996281a10Bfa62018F2B67"],
+        "currentSaleId": 1,
+        "sales": [
+            {
+                "id": 1,
+                "amount": 100,
+                "price": 0.04,
+                "isUSD": false,
+                "start": 1659750076,
+                "duration": 604800,
+                "isWL": false
+            },
+            {
+                "id": 2,
+                "amount": 20,
+                "price": 0.025,
+                "isUSD": false,
+                "start": 1659750076,
+                "duration": 604800,
+                "isWL": true
+            }
+        ]
+    },
+    "whitelistAddress": "0xb373637331f5c796ed5Ee8f0904464ec372f1695",
+    "sellerAddress": "0xAd858615a398907752afAaEc2a6185E58c844DB9",
+    "admins": ["0xE093d8461f7e4148C980000617641D73d4d02E46"],
+    "depositWalletParams": {
+        "withdrawFee": 1000
+    },
+    "depositWalletAddress": "0x5d2B6d0f32f052f57CD55747aFCd198632AF8C43",
+    "nftFarmParams": {
+        "operators": [
+            "0xE093d8461f7e4148C980000617641D73d4d02E46",
+            "0xfC85F8020a3b9c7De322964F2c57a4cB67Ce6f5c",
+            "0x9020185b2cb622311B2e5ebc1a87F0a2Fe27430A",
+            "0x5120CB3bF66BC90aF3d9ad7dbE33c18036317354"
+        ],
+        "yieldPerPeriod": 5000,
+        "farmPeriod": 86400,
+        "stopDate": 0
+    },
+    "nftFarmAddress": "0x2632d9C5Bd2027275C301C56ef3880f60A38056b",
+    "referralsParams": {
+        "levelRewardPercents": [18, 6, 3, 2, 1]
+    },
+    "referralsAddress": "0x72F016aD17C48bC566250D0b85cF52E1D772cea4",
+    "hookAddresses": {
+        "HookBlackWhiteListAddress": "0x8Ec7734CBf787eDB07667aD72cf77a414786d79b"
+    }
+}

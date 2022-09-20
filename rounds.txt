@@ -1,0 +1,11 @@
+1 раунд . 20 шт = 50$
+2 раунд . 50 шт = 60$
+3 раунд . 100 шт = 70$
+4 раунд . 500 шт = 80$
+5 раунд . 1000 шт = 100$
+6 раунд . 7777 шт = 150$
+
+
+zpool create -m /mnt/store store raidz2 ata-ST14000NE0008-2JK101_ZHZ7D8GD ata-ST14000NE0008-2JK101_ZHZ7EH8C ata-ST14000NE0008-2JK101_ZHZ7EL7K ata-ST14000NE0008-2JK101_ZHZ7EL89 ata-ST14000NM001G-2KJ103_ZL2DN65T ata-ST14000NM001G-2KJ103_ZLW1W4XP
+
+apt-get update && apt-get install jq liblz4-tool aria2 -y

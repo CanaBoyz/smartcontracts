@@ -1,0 +1,13 @@
+{
+    "name": "CB Bronze MintPass",
+    "description": "Canaboyz Bronze MintPass",
+    "image": "ipfs://QmdyGAbNR2ctMXFdA9JrcJSzU253zmXa9BouxYBsuRTkeQ",
+    "external_url": "https://canaboyz.io/",
+    "attributes": [
+        {
+            "key": "character",
+            "trait_type": "Character",
+            "value": "Seller"
+        }
+    ]
+}
